@@ -5,8 +5,8 @@
 {
     "title": {
         "text": {
-          "headline": {{ site.title | append: ' Timeline' | jsonify }},
-          "text": {{ site.description | jsonify }}
+          "headline": "Psychiana - What It Is",
+          "text": "A Journey Through Time and Religion"
         }, 
         "media": {
           "url": "{% include image/featured-image.html %}",
