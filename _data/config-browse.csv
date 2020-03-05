@@ -2,6 +2,6 @@ field,display_name,btn,hidden
 date,Date,
 creator,Creator,
 subject,,true
-iteminformation,,true
-relatedpublication,,true,
+item_information,,true
+related_publication,,true,
 description,,,true
