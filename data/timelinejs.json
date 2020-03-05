@@ -30,7 +30,7 @@
         },
         "text": {
           "headline": {{ item.timeline-title | jsonify }}{% if item.description %},
-          "text": {{ item.title | jsonify }}{% endif %}
+          "text": {{ item.description | jsonify }}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
     ]
