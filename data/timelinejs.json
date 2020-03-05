@@ -29,8 +29,8 @@
           "year": "{{ item.date }}"{% endif %}
         },
         "text": {
-          "headline": {{ item.title | jsonify }}{% if item.description %},
-          "text": {{ item.description | jsonify }}{% endif %}
+          "headline": {{ item.timeline-title | jsonify }}{% if item.description %},
+          "text": {{ item.title | jsonify }}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
     ]
