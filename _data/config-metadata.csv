@@ -5,8 +5,8 @@ date,Date Created,
 approximatedate,Date is Approximate,
 description,Description,
 subject,Subjects,true
-item-information,Item Type,true
-related-publication,Related Publication,
+iteminformation,Item Type,true
+relatedpublication,Related Publication,
 latitude,Latitude,
 longitude,Longitude,
 source,Source,
