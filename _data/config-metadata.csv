@@ -7,15 +7,12 @@ description,Description,
 subject,Subjects,true
 item-information,Item Type,true
 related-publication,Related Publication,
-latitude,Latitude
-longitude,Longitude
-source,Source
-findingaid,Finding Aid
-identifier,Source Identifier
+latitude,Latitude,
+longitude,Longitude,
+source,Source,
+findingaid,Finding Aid,
+identifier,Source Identifier,
 type,Type,
 format,Format,
 rights,Rights,
 rightsstatement,Rights Statement,
-
-
-filename,youtubeid,title,format,description,creator,recipient,date,date-is-approximate?,item-information,subject,latitude,longitude,related-publication,publisher-digital,source,findingaid,original-identifier,identifier,rights,rightsstatement,type,language,relation
