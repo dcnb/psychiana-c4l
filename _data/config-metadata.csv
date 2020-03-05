@@ -2,7 +2,7 @@ field,display_name,browse_link
 title,Title,
 creator,Creator,
 date,Date Created,
-approximatedate?,Date is Approximate?,
+approximatedate,Date is Approximate?,
 description,Description,
 subject,Subjects,true
 item_information,Item Type,true
