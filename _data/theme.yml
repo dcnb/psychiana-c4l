@@ -52,7 +52,7 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 ##########
 # LOCATIONS PAGE
 #
-locations-fields: # set the field to be featured in the cloud
+locations-fields: iteminformation;relatedpublication # set the field to be featured in the cloud
 locations-min: 1 # min size for subject cloud, too many terms = slow load time!
 locations-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
@@ -80,7 +80,7 @@ year-nav-increment: 5 # set increments when auto gen nav years
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "objectid,filename,youtubeid,title,format,description,creator,recipient,date,date-is-approximate?,item-information,subject,latitude,longitude,related-publication,publisher-digital,source,findingaid,original-identifier,identifier,rights,rightsstatement,type,language,relation"
+metadata-export-fields: "objectid,filename,youtubeid,title,format,description,creator,recipient,date,approximatedate,iteminformation,subject,latitude,longitude,relatedpublication,publisher-digital,source,findingaid,original-identifier,identifier,rights,rightsstatement,type,language,relation"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format,recipient,item-information,rights"
 
