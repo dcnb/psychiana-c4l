@@ -1,7 +1,7 @@
 ---
 # generate time-focused json data suitable for TimelineJS
 ---
-{%- assign items = site.data.psychiana-timelinejs | where_exp: "item","item.timeline-title" -%}
+{%- assign items = site.data.timelinejs | where_exp: "item","item.headline" -%}
 {
     "title": {
         "text": {
